@@ -1,16 +1,14 @@
 # Set design portfolio
 
-A simple static site for Megan Diulus's set design work. It publishes with GitHub Pages, same idea as [Personal-Website](https://mediulus.github.io/Personal-Website/).
+A simple static site for Meg Diulus's set design work. It publishes with GitHub Pages, same idea as [Personal-Website](https://mediulus.github.io/Personal-Website/).
 
 Live site: https://mediulus.github.io/set-design-portfolio/
 
 ## Add a project
 
 1. Put photos or drawings in `assets/` (`.jpg`, `.png`, or `.webp`).
-2. Open `index.html` and change the card title, caption, and image `src`.
-3. Open the matching file in `projects/` and replace the placeholder text and image.
-
-To add a fourth project, copy one of the files in `projects/`, then add another card on the homepage.
+2. Replace an `IMAGE 1` highlight on the homepage and the matching project page.
+3. To add another project, copy a file in `projects/` and add a link under the Projects dropdown in the top nav.
 
 ## Publish updates
 
