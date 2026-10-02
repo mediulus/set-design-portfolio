@@ -198,6 +198,7 @@ a {
   gap: clamp(0.5rem, 2vw, 1.75rem);
 }
 
+.research,
 .process {
   margin-top: 3rem;
 }
