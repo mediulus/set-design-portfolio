@@ -173,6 +173,35 @@ a {
   background: var(--paper);
 }
 
+.design-statement {
+  margin-bottom: 2.75rem;
+}
+
+.design-statement p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.project-gallery {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.project-gallery img {
+  height: auto;
+  background: var(--paper);
+}
+
+.design-renderings {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: clamp(0.5rem, 2vw, 1.75rem);
+}
+
+.process {
+  margin-top: 3rem;
+}
+
 @media (min-width: 760px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
