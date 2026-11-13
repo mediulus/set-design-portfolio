@@ -209,3 +209,66 @@ a {
     gap: 2rem;
   }
 }
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-rows: repeat(4, auto);
+  width: 100%;
+  max-width: 850px;
+  margin-inline: auto;
+  gap: 12px;
+}
+
+.research-grid img {
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: var(--paper);
+}
+
+.physical-model {
+  margin-top: 3rem;
+}
+
+.model-gallery {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 850px;
+  margin-inline: auto;
+  align-items: start;
+}
+
+.model-photographs {
+  margin-top: 3rem;
+}
+
+.model-photographs-gallery {
+  max-width: 850px;
+  margin-inline: auto;
+}
+
+.model-photographs-gallery figure {
+  margin: 0;
+}
+
+.model-photographs-gallery figcaption {
+  text-align: center;
+  margin-top: 0.7rem;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.2rem;
+}
+
+.design-statement p + p {
+  margin-top: 1rem;
+}
+
+.drafting {
+  margin-block: 3rem;
+}
+
+.drafting-gallery {
+  max-width: 850px;
+  margin-inline: auto;
+}
